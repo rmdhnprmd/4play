@@ -7,6 +7,7 @@ import "../styles/checkout.css";
 import "../styles/complete-checkout.css";
 import "../styles/sign-in.css";
 import "../styles/sign-up.css";
+import "../styles/sign-up-photo.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
