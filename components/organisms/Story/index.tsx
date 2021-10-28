@@ -12,8 +12,8 @@ export default function Story() {
           >
             <Image
               src="/img/Header-9.png"
-              width="612"
-              height="452"
+              width={612}
+              height={452}
               className="img-fluid"
               alt=""
             />

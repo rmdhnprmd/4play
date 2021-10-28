@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import FooterItemSmall from "../../atoms/FooterItemSmall";
 import FooterItem from "../../molecules/FooterItem";
 
@@ -9,9 +10,11 @@ export default function Footer() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-4 text-lg-start text-center">
-              <a href="" className="mb-30">
-                <Image src="/icon/logo.svg" width={94} height={70} />
-              </a>
+              <Link href="/">
+                <a className="mb-30">
+                  <Image src="/icon/logo.svg" width={94} height={70} />
+                </a>
+              </Link>
               <p className="mt-30 text-lg color-palette-1 mb-30">
                 4play membantu gamers
                 <br /> untuk menjadi pemenang sejati
